@@ -10,6 +10,10 @@
 .side-bar {
   background-color: #253141;
     width: 300px;
+    &__user-name{
+      background-color: #253141;
+      height: 100px;
+    }
 }
 
 .chat-main {
