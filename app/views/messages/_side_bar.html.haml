@@ -3,7 +3,14 @@
     .side-bar__user-name
       .top-items
         .top-items__name hadano
-        .top-items__icons
+        %ul.top-items__iconlist
+          %li
+          = link_to "#", class: "top-items__icon" do
+            = icon('fas', 'edit')
+          %li
+          = link_to "#", class: "top-items__icon" do
+            = icon('fas', 'cog')
     .side-bar__group-list
+
 
 
