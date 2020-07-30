@@ -1,5 +1,13 @@
 %body
   .chat-main
     .chat-main__group-info
-    .chat-main__message-list
+      .right-header__group
+        .right-header__group-name
+          izzo
+        %ul.right-header__member-list 
+          Member : 
+          %li.right-header__member
+            hadano
+      = link_to "Edit", "#", class: 'right-header__edit'
+    .chat-main__message-field
     .chat-main__message-form

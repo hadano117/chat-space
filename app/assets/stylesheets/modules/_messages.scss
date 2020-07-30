@@ -24,6 +24,7 @@
   }
 }
 
+
 .top-items {
   height: 20px;
   width: 260px;
@@ -50,10 +51,14 @@
   padding: 20px 0 40px;
   &__name{
     font-size: 15px;
+    color: #ffffff;
+    font-weight: bold;
   }
   &__messages{
     margin-top: 5px;
     font-size: 11px;
+    color: #ffffff;
+    font-weight: bold;
   }
 }
 
@@ -62,10 +67,13 @@
   width: calc(100% - 300px);
   &__group-info{
     background-color: #ffffff;
-    border-bottom: solid #eeeeee;
+    border-bottom: solid 1px #eeeeee;
     height: 100px;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
   }
-  &__message-list{
+  &__message-field{
     background-color: #fafafa;
     height: calc(100vh - 190px);
   }
@@ -74,3 +82,35 @@
     height: 90px;
   }
 }
+
+.right-header {
+  &__group
+  &__group-name{
+    color: #333333;
+    margin-top: 35px;
+    font-size: 20px;
+  }
+  &__member-list{
+    margin-top: 15px;
+    display: flex;
+    color: #999999;
+    font-size: 12px;
+  }
+  &__member{
+    color: #999999;
+    font-size: 12px;
+    padding-right: 5px;
+  }
+  &__edit{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #38aef0;
+    padding: 0 20px;
+    font-size: 16px;
+    color: #38aef0;
+    margin-top: 28px;
+    text-decoration: none;
+  }
+}
+
